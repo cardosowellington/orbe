@@ -1,0 +1,27 @@
+/* Hero Seciton */
+.wp-block-cover{
+  position: relative;
+  img{
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    object-fit: cover;
+  }
+  .bg-hero{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+    position: absolute;
+    top: 0;
+    h1{
+      font-size: 3.75rem;
+      font-weight: 900;
+      line-height: 1;
+    }
+    p{
+      font-size: 1.125rem;
+      line-height: 1.625;
+    }
+  }
+}
