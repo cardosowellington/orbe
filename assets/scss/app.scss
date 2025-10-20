@@ -1,0 +1,16 @@
+// variables and mixins primary
+@import 'variables';
+
+// base
+@import 'base/globais';
+@import 'base/typography.scss';
+
+// layouts
+@import 'layout/dashboard';
+@import 'layout/footer';
+@import 'layout/header';
+
+// components
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/hero';

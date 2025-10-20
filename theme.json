@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "custom" : {},
+    "layout" : {
+      "contentSize" : "1140px",
+      "wideSize" : "1320px"
+    },
+    "spacing" : {
+      "margin" : true,
+      "padding" : true,
+      "units" : [ "px", "em", "rem", "%" ]
+    },
+    "typography": {
+      "customFontSize": true,
+      "fluid": true
+    },
+    "color": {
+      "custom": true,
+      "link": true,
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#0D6EFD",
+          "name": "primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#6C757D",
+          "name": "secondary"
+        }
+      ]
+    }
+  },
+  "styles" : {
+    "typography": {
+      "fontFamily" : "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+    }
+  },
+  "supports" : {
+    "customClassName" : true,
+    "anchor" : true
+  }
+}
